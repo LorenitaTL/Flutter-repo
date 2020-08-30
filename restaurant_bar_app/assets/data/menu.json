@@ -1,0 +1,46 @@
+{
+    "Bebidas": [
+        {
+            "Cervezas": [
+                {
+                    "nombre": "Corona",
+                    "precio": 20
+                }
+            ],
+            "Shots": [
+                {
+                    "nombre": "Corona",
+                    "precio": 20
+                }
+            ],
+            "Sin Alcohol": [
+                {
+                    "nombre": "Corona",
+                    "precio": 20
+                }
+            ]
+        }
+    ],
+    "Comida": [
+        "Pizza",
+        "Hamburguesa",
+        "Boneles",
+        "Alitas"
+    ],
+    "Postres": [
+        "Pay de limón",
+        "Nieve",
+        "Crepas"
+    ],
+    "Nuevas especialidades": [
+        "Sushi",
+        "Alambres",
+        "Pizza Chicago"
+    ],
+    "subjects": [
+        {
+            "calif": 10,
+            "name": "Esp"
+        }
+    ]
+}
