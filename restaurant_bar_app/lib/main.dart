@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_bar_app/src/pages/add_product.dart';
 import 'package:restaurant_bar_app/src/pages/category.dart';
 import 'package:restaurant_bar_app/src/pages/home.dart';
 import 'package:restaurant_bar_app/src/pages/pedido.dart';
+import 'package:restaurant_bar_app/src/pages/products.dart';
+import 'package:restaurant_bar_app/src/pages/tables.dart';
 import 'package:restaurant_bar_app/src/pages/ticket.dart';
 
 void main() => runApp(MyApp());
@@ -16,7 +19,8 @@ class MyApp extends StatelessWidget {
         fontFamily: 'NanumGothic',
         primarySwatch: Colors.blue,
       ),
-      home: Pedido(),
+      debugShowCheckedModeBanner: false,
+      home: Ticket(),
     );
   }
 }

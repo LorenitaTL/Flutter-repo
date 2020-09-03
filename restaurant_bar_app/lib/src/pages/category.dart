@@ -53,8 +53,8 @@ class Category extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  IconButton(icon: Icon(Icons.menu, color: Colors.white,), onPressed: null),
-                  IconButton(icon: Icon(Icons.restaurant, color: Colors.white,), onPressed: null),
+                  IconButton(icon: Icon(Icons.menu, color: Color(0xffffbd59),), onPressed: null),
+                  IconButton(icon: Icon(Icons.restaurant, color: Color(0xffffbd59),), onPressed: null),
                 ],
               ),
             )

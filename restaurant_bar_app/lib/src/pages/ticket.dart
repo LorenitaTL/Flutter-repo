@@ -53,7 +53,7 @@ class _TicketState extends State<Ticket> {
                             '1 Cerveza',
                             style: TextStyle(color: Colors.white),
                           ),
-                          Text('\$356', style: TextStyle(color: Colors.white))
+                          Text('\$25', style: TextStyle(color: Colors.white))
                         ],
                       ),
                     ),
@@ -63,10 +63,10 @@ class _TicketState extends State<Ticket> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Text(
-                            '1 Cerveza',
+                            'Hamburguesa',
                             style: TextStyle(color: Colors.white),
                           ),
-                          Text('\$356', style: TextStyle(color: Colors.white))
+                          Text('\$50', style: TextStyle(color: Colors.white, fontSize: 18))
                         ],
                       ),
                     ),
@@ -83,7 +83,7 @@ class _TicketState extends State<Ticket> {
                                 fontSize: 20),
                           ),
                           Text(
-                            '\$356',
+                            '\$75',
                             style: TextStyle(
                                 color: Color(0xffffbd59),
                                 fontWeight: FontWeight.w700,
@@ -97,7 +97,10 @@ class _TicketState extends State<Ticket> {
               ),
               RaisedButton.icon(
                 onPressed: () => print('Cuenta'),
-                icon: Icon(Icons.restaurant, color: Colors.white,),
+                icon: Icon(
+                  Icons.restaurant,
+                  color: Colors.white,
+                ),
                 label: Text(
                   'Pedir cuenta',
                   style: TextStyle(color: Colors.white),
