@@ -25,15 +25,19 @@ dependencies:
   cupertino_icons: ^0.1.2
   responsive_grid: ^1.2.1+1
   modal_bottom_sheet: ^0.2.0+1
+  provider: ^4.3.2+2
+  http: ^0.12.2
+  pull_to_refresh: ^1.6.1
+  flutter_secure_storage: ^3.3.4
+  socket_io_client: ^0.9.11
+  font_awesome_flutter: ^8.8.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
 # The following section is specific to Flutter.
 flutter:
   assets:
@@ -50,3 +54,4 @@ flutter:
         - asset: 'fonts/JustAnotherHand-Regular.ttf'
 
   uses-material-design: true
+

@@ -79,10 +79,8 @@ class __FormState extends State<_Form> {
                       FocusScope.of(context).unfocus();
                       final loginOk = await authService.login(
                           emailCtrl.text.trim(), passCtrl.text.trim());
-
                       if (loginOk) {
                         socketService.connect();
-
                         //TODO: Navegar a otra pantalla
                         Navigator.pushReplacementNamed(context, 'usuarios');
                       } else {
