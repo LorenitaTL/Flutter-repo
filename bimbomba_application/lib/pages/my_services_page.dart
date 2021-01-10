@@ -20,7 +20,7 @@ class MyServicesPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            HeaderWithTitle(title: 'Mis servicios'),
+            SearchHeaderWithTitle(title: 'Mis servicios'),
             Expanded(
               child: ListView.builder(
                 itemCount: 5,

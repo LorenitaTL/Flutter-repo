@@ -1,5 +1,6 @@
 import 'package:bimbomba_application/theme/theme.dart';
 import 'package:bimbomba_application/widgets/card_items.dart';
+import 'package:bimbomba_application/widgets/headers.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -10,6 +11,7 @@ class CategoriesPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
+            HeaderWithLogo(),
             Container(
                 margin: EdgeInsets.all(10),
                 child: Text(
