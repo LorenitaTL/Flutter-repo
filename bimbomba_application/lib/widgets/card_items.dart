@@ -49,7 +49,9 @@ class CardCategory extends StatelessWidget {
                     child: Text(category.toUpperCase(),
                         style: TextStyle(
                             color: CompanyColors.orange[300],
-                            fontWeight: FontWeight.w600))),
+                            fontWeight: FontWeight.w600,
+                            fontFamily: 'NanumGothic'
+                            ))),
               ),
               flex: 1)
         ],

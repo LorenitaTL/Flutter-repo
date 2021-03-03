@@ -83,7 +83,7 @@ class _MainScroll extends StatelessWidget {
             ...items,
             SizedBox(
               height: 100,
-            )
+            ),
           ]),
         )
       ],
